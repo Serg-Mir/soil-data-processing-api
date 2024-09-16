@@ -23,5 +23,7 @@ jobs:
       run: |
         black --line-length 88 --check .
     - name: Run tests
+      env:
+        PYTHONPATH: ${{ github.workspace }}
       run: |
         pytest --cov=./app --cov-report=xml tests/
