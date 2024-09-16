@@ -1,5 +1,5 @@
 from fastapi.testclient import TestClient
-import app
+from main import app
 import pytest
 from unittest.mock import patch
 
