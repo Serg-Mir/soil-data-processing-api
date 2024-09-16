@@ -24,4 +24,4 @@ jobs:
         black --line-length 88 --check .
     - name: Run tests
       run: |
-        pytest --cov=./ --cov-report=xml
+        pytest --cov=./app --cov-report=xml tests/
