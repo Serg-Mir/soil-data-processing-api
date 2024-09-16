@@ -16,14 +16,14 @@ This project processes soil data using the SoilGrids API and provides insights i
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Serg-Mir/<project_name>.git
+   git clone https://github.com/Serg-Mir/soil-data-processing-api.git
    cd soil-data-processing-api
    ```
 
 2. Create a virtual environment and activate it:
    ```
-   python -m <project_name> .virtualenvs/<project_name>
-   source .virtualenvs/<project_name>/bin/activate
+   python -m <project_name> .virtualenvs/soil-data-processing-api
+   source .virtualenvs/soil-data-processing-api/bin/activate
    ```
 
 3. Install the required packages:
@@ -33,9 +33,9 @@ This project processes soil data using the SoilGrids API and provides insights i
 
 ## Usage
 
-1. Start the FastAPI server:
+* Start the FastAPI server locally:
    ```uvicorn main:app --reload```
-2. Build and run docker container:
+* Build and run docker container:
    ```
    docker-compose up --build
    docker run -p 8000:8000 soil-data-processing-api
