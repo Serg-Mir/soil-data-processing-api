@@ -1,4 +1,5 @@
 # Soil Data Processing API
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/serg-mir/soil-data-processing-api/ci.yml?branch=main&style=for-the-badge)
 
 This project processes soil data using the SoilGrids API and provides insights into soil suitability for agriculture.
 
